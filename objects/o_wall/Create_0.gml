@@ -1,0 +1,3 @@
+/// @description  
+
+tileSize = 32;
