@@ -1,4 +1,4 @@
-/// @description
+/// @description Create path to player
 var rand = irandom_range(0,5);
 if (rand == 1){
 	//alarm[0] = room_speed*2;

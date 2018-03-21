@@ -2,7 +2,7 @@
     "id": "72c1ab66-cf1a-4a50-a2f5-7dc97b30021e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_door",
+    "name": "o_spawner",
     "eventList": [
         {
             "id": "44c5d1e5-0816-4539-8c18-f1148a668744",

@@ -12,23 +12,18 @@ for (rw = 0; rw<roomW;rw++){
 		for (i = 0;i<ds_grid_width(grid);i++){
 			for (j = 0;j<ds_grid_height(grid);j++){
 				if (grid[# i, j] == 1){
-					instance_create_layer(rw*roomSize+i*gridSize, rh*roomSize+j*gridSize, "walls", o_obstacle_parent)
+					instance_create_layer(rw*roomSize+i*gridSize+borderSize, rh*roomSize+j*gridSize+borderSize, "walls", o_obstacle_parent)
 				}else{
+					var spawnZombie = irandom(20);
+					if (spawnZombie == 1){
+						instance_create_layer(rw*roomSize+i*gridSize+gridSize/2+borderSize,rh*roomSize+j*gridSize+gridSize/2+borderSize, "Monsters", o_enemy);
+					}
 					if (!instance_exists(o_player)){
-						instance_create_layer(i*gridSize+gridSize/2,j*gridSize+gridSize/2, "Instances", o_player);
+						instance_create_layer(i*gridSize+gridSize/2+borderSize,j*gridSize+gridSize/2+borderSize, "Instances", o_player);
 					}
 				}
 			}
 		}
-		var placed = false;
-		do {
-			var randomX = irandom(7);
-			var randomY = irandom(7);
-			if (grid[# randomX, randomY] == 0){
-				instance_create_layer(rw*roomSize+randomX*gridSize+gridSize/2,rh*roomSize+randomY*gridSize+gridSize/2, "Monsters", o_door);
-				placed = true;
-			}
-		} until (placed)
 	}
 }
 o_pathfinding.alarm[0] = 1;

@@ -15,3 +15,4 @@ bulletX = 18;
 bulletY = 6;
 shootSpeed = 15;
 fireGun = true;
+instance_create_layer(x, y, "Instances", o_player_skin);

@@ -4,6 +4,8 @@ path = path_add();
 speed_ = 1;
 mx = x;
 my = y;
-alarm[0] = 1;
 moving = false;
+awake = false;
 randomise();
+
+alarm[1] = room_speed;

@@ -34,7 +34,7 @@
             "Key": "04464ade-ebdf-47bc-a421-06bbe35f1f96",
             "Value": {
                 "id": "6fc02ffc-4497-4558-b1a0-73c92e782894",
-                "resourcePath": "objects\\o_enemy_test\\o_enemy_test.yy",
+                "resourcePath": "objects\\o_enemy\\o_enemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -202,7 +202,7 @@
             "Key": "5e72e048-0044-4c1e-b28f-047cdbd6d763",
             "Value": {
                 "id": "baa75792-f3e8-4941-b5b2-93244ad94d1c",
-                "resourcePath": "sprites\\s_enemy_test\\s_enemy_test.yy",
+                "resourcePath": "sprites\\s_enemy\\s_enemy.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -282,7 +282,7 @@
             "Key": "72c1ab66-cf1a-4a50-a2f5-7dc97b30021e",
             "Value": {
                 "id": "902f8ed3-e5c1-424f-a911-ccb8bc905bd1",
-                "resourcePath": "objects\\o_door\\o_door.yy",
+                "resourcePath": "objects\\o_spawner\\o_spawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -364,6 +364,22 @@
                 "id": "43ee139c-d4e1-4e7a-9f77-76f1c90a4d52",
                 "resourcePath": "tilesets\\t_walls\\t_walls.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "9fd604ac-4404-4440-b597-2d6b234e14ca",
+            "Value": {
+                "id": "c5723b41-0765-41c4-acd7-cf67bab44db3",
+                "resourcePath": "sprites\\s_player_skin\\s_player_skin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a2ecc169-a097-4328-975b-ed04110f0569",
+            "Value": {
+                "id": "7d71832b-298e-4511-bfa0-b05b7761bf0b",
+                "resourcePath": "objects\\o_player_skin\\o_player_skin.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -460,6 +476,14 @@
                 "id": "6228f41c-ab1b-40ef-9e80-c95f0fc0321e",
                 "resourcePath": "views\\d0a95a96-cfe9-4370-a704-f5a98940ef5e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d4a8bc89-279b-497b-8727-2bfaa657cc25",
+            "Value": {
+                "id": "510b77db-fb72-42a0-9198-c937297d1a0e",
+                "resourcePath": "objects\\o_camera\\o_camera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
