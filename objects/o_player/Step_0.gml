@@ -76,4 +76,5 @@ if (moveY != 0) {
 x += moveX;
 y += moveY;
 
-
+//view_xport[0] += (x-view_xport[0])*.05;
+//view_yport[0] += (y-view_yport[0])*.05;
