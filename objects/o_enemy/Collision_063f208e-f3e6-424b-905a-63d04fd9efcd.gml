@@ -1,4 +1,3 @@
 /// @description  
 instance_destroy(other);
-instance_destroy();
-score++;
+alarm[3] = 1;

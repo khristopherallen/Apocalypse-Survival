@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "40bf8160-cc51-4eae-806e-6275158cf00e",
+            "Value": {
+                "id": "cc207b2a-4a03-4f76-84df-133095e77e0e",
+                "resourcePath": "sprites\\s_explosive_mine\\s_explosive_mine.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45d70f2d-a727-40ba-8aae-1530c455a0c7",
             "Value": {
                 "id": "fcbcf586-a4dc-416b-9c79-3c61e1f814f4",
@@ -463,6 +471,14 @@
             }
         },
         {
+            "Key": "cba23b69-cf48-40e4-925d-4f1b52f056b9",
+            "Value": {
+                "id": "8e736f1a-d7e3-4c5b-a59b-29f79ebc4c93",
+                "resourcePath": "objects\\o_explosion\\o_explosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "faa3d10b-caae-47bb-9e0a-53f6878c28f8",
@@ -508,6 +524,14 @@
                 "id": "d3b272cd-97ba-4ef6-95cf-7e5d6f7fbf29",
                 "resourcePath": "views\\deb30364-fdbd-4580-890b-92f3c8b7e5e5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "df659452-1f98-4c04-a69b-23c525db77af",
+            "Value": {
+                "id": "53d7708a-d312-4b7b-9602-462e2d2019f4",
+                "resourcePath": "objects\\o_explosive_mine\\o_explosive_mine.yy",
+                "resourceType": "GMObject"
             }
         },
         {
