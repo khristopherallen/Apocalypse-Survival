@@ -170,7 +170,7 @@
             "Key": "40bf8160-cc51-4eae-806e-6275158cf00e",
             "Value": {
                 "id": "cc207b2a-4a03-4f76-84df-133095e77e0e",
-                "resourcePath": "sprites\\s_explosive_mine\\s_explosive_mine.yy",
+                "resourcePath": "sprites\\s_explosive_remote_bomb\\s_explosive_remote_bomb.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "97b537fe-5604-46f2-b5ed-e833c712262d",
+            "Value": {
+                "id": "5b641215-7380-4afe-8d01-6628fb8e04ad",
+                "resourcePath": "sprites\\s_explosive_timed_bomb\\s_explosive_timed_bomb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9fd604ac-4404-4440-b597-2d6b234e14ca",
             "Value": {
                 "id": "c5723b41-0765-41c4-acd7-cf67bab44db3",
@@ -447,6 +455,14 @@
             }
         },
         {
+            "Key": "c050d1b1-39a0-452c-b982-886890f78801",
+            "Value": {
+                "id": "c63e52d5-51e8-40b6-bf3e-345a6a797aa5",
+                "resourcePath": "fonts\\f_pixel_sm\\f_pixel_sm.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "c131a9d8-1a8d-4189-95ce-c9845ab76e0c",
             "Value": {
                 "id": "9c595f6f-1e39-46c9-9e80-7cc921e46529",
@@ -511,6 +527,22 @@
             }
         },
         {
+            "Key": "d66d04db-462a-4d4f-8430-65c80eeacce4",
+            "Value": {
+                "id": "a6ed2554-30a5-4c53-b827-f56f6183e588",
+                "resourcePath": "views\\d66d04db-462a-4d4f-8430-65c80eeacce4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d795fafc-eb25-48d9-9fc7-a35ec16cedb1",
+            "Value": {
+                "id": "40694efa-cd82-485e-81c6-cc7c7f81039f",
+                "resourcePath": "objects\\o_explosive_timed_bomb\\o_explosive_timed_bomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dd1f6155-6402-429b-8081-5b5969e57ad3",
             "Value": {
                 "id": "f73208e2-3112-47d3-9dc9-faf4aec2d8ea",
@@ -530,7 +562,7 @@
             "Key": "df659452-1f98-4c04-a69b-23c525db77af",
             "Value": {
                 "id": "53d7708a-d312-4b7b-9602-462e2d2019f4",
-                "resourcePath": "objects\\o_explosive_mine\\o_explosive_mine.yy",
+                "resourcePath": "objects\\o_explosive_remote_bomb\\o_explosive_remote_bomb.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -548,6 +580,22 @@
                 "id": "56d7883e-6fef-4c33-946d-aaf317c20dc7",
                 "resourcePath": "sprites\\s_door\\s_door.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e96f808e-f08d-4e4a-9271-81f26f165516",
+            "Value": {
+                "id": "dce22525-9993-4528-90f1-a5d457a48eb0",
+                "resourcePath": "views\\e96f808e-f08d-4e4a-9271-81f26f165516.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fd6d0fdc-1a07-4b6a-a6a1-39ca6960bed3",
+            "Value": {
+                "id": "459b2c9e-1664-400b-a3d5-fc9683d3496a",
+                "resourcePath": "objects\\o_explosive_parent\\o_explosive_parent.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

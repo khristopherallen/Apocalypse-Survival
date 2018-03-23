@@ -1,6 +1,6 @@
-/// @description  
+/// @description  Check if bomb should hurt
 
-bombDistance = point_distance(x, y, o_explosive_mine.x, o_explosive_mine.y)
+bombDistance = point_distance(x, y, o_game.currentBomb.x, o_game.currentBomb.y)
 if (bombDistance <= 96) {
 	health -= 2;
 }

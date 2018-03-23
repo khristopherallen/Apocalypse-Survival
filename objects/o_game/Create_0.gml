@@ -2,6 +2,7 @@
 
 monsterHit = false;
 playerHit = false;
+currentBomb = noone;
 health = 5;
 
 alarm[0] = room_speed*5;

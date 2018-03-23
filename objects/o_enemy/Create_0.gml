@@ -1,4 +1,4 @@
-/// @description  create path
+/// @description  create path and variables
 
 path = path_add();
 speed_ = 1;
